@@ -2,6 +2,25 @@
 
 Run this on your server to monitor uptime and take action accordingly.
 
+## Setup
+
+These scripts should be executed automatically using some other tool to function as intended.
+
+### Cronjobs
+
+`launch.sh` file is to be used with cronjobs. Run the command below to edit the crontab file safely:
+
+```
+crontab -e
+```
+
+Then add this to the end of the file to run it every 10 minutes:
+
+```
+*/10 * * * * /srv/on-server-uptime-monitor/launch_monitor.sh
+```
+
+
 ### License
 
 MIT License: Copyright (c) 2025 Hirusha Adikari
