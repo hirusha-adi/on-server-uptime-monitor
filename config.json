@@ -1,0 +1,20 @@
+{
+    "services": [
+        {
+            "name": "hirusha-class-notes-pocketbase",
+            "url": "https://https://db.ictwith.me/_/",
+            "run_command": {
+                "in_dir": "/srv/hirusha-class-notes/pocketbase/",
+                "command": "docker compose down && docker compose up -d"
+            }
+        },
+        {
+            "name": "hirusha-shama-nadu-potha-pocketbase",
+            "url": "http://shama-db.h3ck.cc/_/",
+            "run_command": {
+                "in_dir": "/srv/hirusha-shama-nadu-potha/pocketbase/",
+                "command": "docker compose down && docker compose up -d"
+            }
+        }
+    ]
+}
