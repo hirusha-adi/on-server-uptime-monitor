@@ -2,7 +2,7 @@
     "services": [
         {
             "name": "hirusha-class-notes-pocketbase",
-            "url": "https://https://db.ictwith.me/_/#/login",
+            "url": "https://db.ictwith.me/_/#/login",
             "run_command": {
                 "in_dir": "/srv/hirusha-class-notes/pocketbase/",
                 "command": "docker compose down && docker compose up -d"
