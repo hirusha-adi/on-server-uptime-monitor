@@ -36,6 +36,6 @@ fi
 
 # Run the script in the background
 echo "🚀 Starting service monitor..."
-nohup "$PYTHON" "$SCRIPT_DIR/monitor_services.py" > "$LOG_FILE" 2>&1 &
+nohup "$PYTHON" "$SCRIPT_DIR/monitor_python.py" > "$LOG_FILE" 2>&1 &
 
 echo "✅ Service monitor started!"

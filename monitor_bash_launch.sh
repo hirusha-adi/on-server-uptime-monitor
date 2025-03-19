@@ -10,7 +10,7 @@ SCRIPT_DIR="/srv/on-server-uptime-monitor"
 cd "$SCRIPT_DIR" || exit 1
 
 # Make sure script is executable
-chmod +x monitor_services.sh
+chmod +x monitor_bash.sh
 
 # Run script silently
-nohup "$SCRIPT_DIR/monitor_services.sh" >/dev/null 2>&1 &
+nohup "$SCRIPT_DIR/monitor_bash.sh" >/dev/null 2>&1 &
